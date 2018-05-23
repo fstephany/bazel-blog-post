@@ -1,3 +1,5 @@
+load("@gmaven_rules//:defs.bzl", "gmaven_artifact")
+
 android_binary(
     name = "AppA-Android",
     custom_package = "be.tulipemoutarde.appa",
@@ -7,5 +9,6 @@ android_binary(
     visibility = ["//visibility:public"],
     deps = [
         "@timber//aar",
+        gmaven_artifact("com.android.support:appcompat-v7:aar:27.1.1"),
     ],
 )

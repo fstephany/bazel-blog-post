@@ -12,3 +12,16 @@ maven_aar(
     name = "timber",
     artifact= "com.jakewharton.timber:timber:4.7.0"
 )
+
+# Google Maven Repository for Android libs from Google
+GMAVEN_TAG = "20180513-1"
+
+http_archive(
+    name = "gmaven_rules",
+    strip_prefix = "gmaven_rules-%s" % GMAVEN_TAG,
+    url = "https://github.com/bazelbuild/gmaven_rules/archive/%s.tar.gz" % GMAVEN_TAG,
+)
+
+load("@gmaven_rules//:gmaven.bzl", "gmaven_rules")
+
+gmaven_rules()
