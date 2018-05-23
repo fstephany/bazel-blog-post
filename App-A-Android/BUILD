@@ -8,6 +8,7 @@ android_binary(
     resource_files = glob(["src/main/res/**"]),
     visibility = ["//visibility:public"],
     deps = [
+        "//Lib-Android",
         "@timber//aar",
         gmaven_artifact("com.android.support:appcompat-v7:aar:27.1.1"),
     ],

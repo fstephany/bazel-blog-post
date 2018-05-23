@@ -21,3 +21,7 @@ Install and launch the app on a connected device/emulator:
 Incremental build & run:
 
     $ bazel mobile-install --incremental //App-A-Android:AppA-Android
+
+Build the Lib-Android:
+
+    $ bazel build //Lib-Android
