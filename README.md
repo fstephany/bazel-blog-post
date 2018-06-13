@@ -1,6 +1,8 @@
 Sample project showing how to use Bazel to build iOS and Android apps using a
 monorepo.
 
+Companion blog post: https://tulipemoutarde.be/posts/bazel-for-mobile-apps-part-1/
+
 # Usage
 
 ## Android
