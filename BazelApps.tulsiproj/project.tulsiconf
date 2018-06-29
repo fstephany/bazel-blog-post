@@ -1,0 +1,12 @@
+{
+  "configDefaults" : {
+    "optionSet" : {
+
+    }
+  },
+  "projectName" : "AppA",
+  "packages" : [
+    "AppA-iOS"
+  ],
+  "workspaceRoot" : ".."
+}

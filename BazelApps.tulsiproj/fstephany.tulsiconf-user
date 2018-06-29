@@ -1,0 +1,10 @@
+{
+  "optionSet" : {
+    "WorkspaceRootPath" : {
+      "p" : "/Users/fstephany/Code/Play/bazel-blog-post"
+    },
+    "BazelPath" : {
+      "p" : "/usr/local/bin/bazel"
+    }
+  }
+}
