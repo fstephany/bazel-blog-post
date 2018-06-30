@@ -1,11 +1,11 @@
-class StringProvider {
+public class StringProvider {
     let baseString: String
 
-    init(baseString: String) {
+    public init(baseString: String) {
         self.baseString = baseString
     }
 
-    func provideString() {
+    public func provideString() -> String {
         return "\(baseString) was the base string"
     }
 }

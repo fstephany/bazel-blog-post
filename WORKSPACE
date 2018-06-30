@@ -27,7 +27,7 @@ load("@gmaven_rules//:gmaven.bzl", "gmaven_rules")
 gmaven_rules()
 
 
-# iOS
+# Apple Specific rules
 
 git_repository(
     name = "build_bazel_rules_apple",
@@ -39,3 +39,18 @@ load(
     "apple_rules_dependencies",
 )
 apple_rules_dependencies()
+
+# Swift Rules
+
+# git_repository(
+#     name = "build_bazel_rules_swift",
+#     remote = "https://github.com/bazelbuild/rules_swift.git",
+#     tag = "0.2.0",
+# )
+
+# load(
+#     "@build_bazel_rules_swift//swift:repositories.bzl",
+#     "swift_rules_dependencies",
+# )
+
+# swift_rules_dependencies()

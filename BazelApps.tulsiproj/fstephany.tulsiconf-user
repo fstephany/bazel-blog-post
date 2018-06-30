@@ -1,7 +1,7 @@
 {
   "optionSet" : {
     "WorkspaceRootPath" : {
-      "p" : "/Users/fstephany/Code/Play/bazel-blog-post"
+      "p" : "/Users/fstephany/Code/Play/bazelblog-post"
     },
     "BazelPath" : {
       "p" : "/usr/local/bin/bazel"

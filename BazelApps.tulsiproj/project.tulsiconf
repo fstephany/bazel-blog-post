@@ -6,7 +6,8 @@
   },
   "projectName" : "AppA",
   "packages" : [
-    "AppA-iOS"
+    "AppA-iOS",
+    "Lib-Swift"
   ],
   "workspaceRoot" : ".."
 }

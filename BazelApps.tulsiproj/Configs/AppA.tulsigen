@@ -2,11 +2,14 @@
   "sourceFilters" : [
     "AppA-iOS",
     "AppA-iOS/Resources",
-    "AppA-iOS/src"
+    "AppA-iOS/src",
+    "Lib-Swift",
+    "Lib-Swift/src"
   ],
   "buildTargets" : [
     "//AppA-iOS:AppA-iOS",
-    "//AppA-iOS:Sources"
+    "//AppA-iOS:Sources",
+    "//Lib-Swift:Lib_Swift"
   ],
   "projectName" : "AppA",
   "optionSet" : {
