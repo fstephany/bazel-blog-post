@@ -43,7 +43,7 @@ apple_rules_dependencies()
 # External iOS Dependencies
 
 new_http_archive(
-    name = "RxSwift",
+    name = "Rx",
     url = "https://github.com/ReactiveX/RxSwift/archive/4.2.0.tar.gz",
     strip_prefix = "RxSwift-4.2.0",
     sha256 = "d8474e9733075e7164732b25284c263d0b16e9c9a18393de932bd8ddded73360",

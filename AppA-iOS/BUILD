@@ -7,7 +7,10 @@ swift_library(
     resources = [
         "Resources/Main.storyboard",
     ],
-    deps = ["//Lib-Swift:Lib_Swift"]
+    deps = [
+        "//Lib-Swift:Lib_Swift",
+        "@Rx//:RxSwift"
+    ]
 )
 
 ios_application(
