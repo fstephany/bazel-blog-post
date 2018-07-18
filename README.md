@@ -7,7 +7,6 @@ Companion blog post: https://tulipemoutarde.be/posts/bazel-for-mobile-apps-part-
 
 ## Android
 
-
 Build the app:
 
     $ bazel build //App-A-Android:AppA-Android
@@ -27,3 +26,12 @@ Incremental build & run:
 Build the Lib-Android:
 
     $ bazel build //Lib-Android
+
+## iOS
+
+    $ bazel build //AppA-iOS
+    $ bazel build //Lib-Swift:Lib_Swift
+    $ bazel build @Rx//:RxSwift
+    $ bazel build @Rx//:RxCocoa
+
+To run the app, generate an XCode project with Tulsi.
