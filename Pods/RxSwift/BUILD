@@ -11,3 +11,16 @@ swift_library(
     ),
     visibility = ["//visibility:public"],
 )
+
+# Based on RxCocoa.podspec
+
+swift_library(
+    name = "RxCocoa",
+    module_name = "RxCocoa",
+    srcs = glob(
+        ["Platform/**/*.swift", "RxCocoa/**/*.{swift,h,m}"],
+        exclude= ["RxCocoa/Platform/**/*.swift"]
+    ),
+    deps = [":RxSwift"],
+    visibility = ["//visibility:public"],
+)
